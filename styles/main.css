@@ -1,3 +1,69 @@
-a{
-    color: navy;
+/* 
+padding: 0.5em;
+text-align: center;
+font-size: 16px; */
+
+header {
+    border-radius: 25px; background-color:#91ADC2;
+    padding: 20px;
+    height: 175px;
+    display: grid;
+    grid-template-columns: 110px auto;
+    align-items: center; text-align: center;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.content{
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 1em;
+}
+.taskList{
+    border-style: solid hidden solid hidden;
+    border-width: 1px;
+}
+img {
+    max-width:100%; 
+    height:auto;
+    box-shadow: 2px 5px 4px 5px gray;
+}
+footer {
+    background-color: #91ADC2; 
+    border-radius: 25px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+span{
+    font-family: 'Neuton', 'Press Start 2P';
+    font-size: 16pt;
+}
+ul{
+    font-size: 16px;
+}
+a {
+    color: gray;
+}
+section{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+img{
+    max-width: 400px;
+    width: 95%;
+}
+hr {
+    margin-bottom: 60px;
+}
+@media screen and (min-width: 550px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    img {
+        max-width: 400px;
+        width: 80%;
+    }   
+}
+@media screen and (min-width: 900px) {
+    main { 
+        grid-template-columns: Ifr lfr 1fr;
+    }
 }
