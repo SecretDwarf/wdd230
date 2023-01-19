@@ -1,0 +1,74 @@
+@media screen and (min-width: 1200px) {
+
+    header h1 {
+        font-size: 3vw;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+    
+    header h2 {
+        font-size: 2.6vw;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    a {
+        font-family: 'Source Serif Pro', serif;
+        font-size: 1.5vw;
+        margin: 15px 0px;
+        border: 3px solid #D81E5B;
+        border-radius: 20px;
+        color: #D81E5B;
+        padding: 10px 15%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    a:hover, a:active {
+        background-color: #EB6F99;
+        border: 3px solid #EB6F99;
+        color: white;
+      }
+
+      .white-space h3 {
+        padding-top: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vw;
+        font-weight: 800;
+        color: #D81E5B;
+    }
+
+    .contrast h3 {
+        padding-top: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vw;
+        font-weight: 800;
+        color: #D81E5B;
+    }
+
+    .alignment h3 {
+        padding-top: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vw;
+        font-weight: 800;
+        color: #D81E5B;
+    }
+
+    footer h3 {
+        font-size: 1.6vw;
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+}
