@@ -30,7 +30,10 @@ img {
 footer {
     background-color: #91ADC2; 
     border-radius: 25px;
-    box-shadow: 5px 10px 8px 10px #888888;
+    text-align: center;
+    height: 10vh;
+    font-size: 1vw;
+    color: white;
 }
 span{
     font-family: 'Neuton', 'Press Start 2P';
