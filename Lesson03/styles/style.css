@@ -54,7 +54,7 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #8F6B60;
+    background-color: #9AD1D4;
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: 3px 7px 10px #888888;
@@ -73,7 +73,7 @@ nav a:hover {
     color: black;
 }
 nav li:hover {
-    background-color: #FAD4C8;
+    background-color: #003249;
 }
 .person {
     overflow: hidden;
@@ -104,7 +104,7 @@ nav li:hover {
 }
 main a {
     font-size: 1.5em;
-    color:#8F6B60;
+    color:#9AD1D4;
     font-family: Poppins, 
 }
 footer {
