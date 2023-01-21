@@ -2,7 +2,7 @@
 body {
     background-color: #309981;
     text-align: center;
-    font-family: Poppins, 'Times New Roman',Times, serif;
+    font-family: 'Poppins', sans-serif;
 }
 #content {
     background-color: white;
@@ -22,7 +22,7 @@ h1, h2 {
     padding: 10px;
 }
 h3 {
-    font-family: Vollkorn, Arial, Helvetica, sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 ol, ul {
     text-align: left;
@@ -31,12 +31,12 @@ p {
     line-height: 1.5em;
 }
 p, .Vollkorn {
-    font-family: Vollkorn, Arial, Helvetica, sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 p, ol {
     margin-left: 6em;
     margin-right: 6em;
-    font-family: Vollkorn, Arial, Helvetica;
+    font-family: 'Vollkorn', serif;
 }
 ol li {
     line-height: 1.5em;
@@ -73,7 +73,10 @@ nav a:hover {
     color: black;
 }
 nav li:hover {
-    background-color: #003249;
+    background-color: #D49D9A;
+}
+nav li a:hover {
+    background-color: #D49D9A;
 }
 .person {
     overflow: hidden;
@@ -97,7 +100,7 @@ nav li:hover {
     background-color: #007EA7;
 }
 .accent3 {
-    background-color: #003249;
+    background-color: #D49D9A;
 }
 .sitemap {
     width: 100%;
@@ -105,7 +108,7 @@ nav li:hover {
 main a {
     font-size: 1.5em;
     color:#9AD1D4;
-    font-family: Poppins, 
+    font-family: 'Poppins', sans-serif;
 }
 footer {
     padding-top: 30px;
