@@ -1,0 +1,39 @@
+.newstyle {
+    background-color: red;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+a {
+    display: none;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:first-child {
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.responsive a {
+    display: block;
+}
+/*hamburger menu*/
+
+@media screen and (min-width: 650px){
+    a:first-child {
+        display: none;   
+    }
+    a {
+        display: block;
+        text-decoration: none;
+    }
+    nav{
+        flex-direction: row;
+    }
+}
