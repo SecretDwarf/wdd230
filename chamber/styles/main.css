@@ -5,46 +5,48 @@ main {
 .hero {
     font-style: italic;
     border-style: solid;
-    border-color: lightgray;
+    border-color: black;
     background-color: lightgray;
 }
 .event {
     font-style: italic;
     border-style: solid;
-    border-color: #666;
-    background-color: gray;
+    border-color: black;
+    background-color: lightgray;
 }
 .weather {
     font-style: italic;
     border-style: solid;
-    border-color: #666;
-    background-color: gray;
-}
+    border-color: black;
+    background-color: lightgray;
 .news {
     font-style: italic;
     border-style: solid;
-    border-color: #666;
-    background-color: gray;
+    border-color: black;
+    background-color: lightgray;
 }
 .spotlight {
     font-style: italic;
     border-style: solid;
-    border-color: #666;
-    background-color: gray;
+    border-color: black;
+    background-color: lightgray;
 }
 .spotlight1 {
     font-style: italic;
     border-style: solid;
-    border-color: #666;
-    background-color: gray;
+    border-color: black;
+    background-color: lightgray;
 }
 .spotlight2 {
     font-style: italic;
     border-style: solid;
-    border-color: #666;
-    background-color: gray;
+    border-color: black;
+    background-color: lightgray;
 }
 .join {
-    font-style: italic;
     display: none;
+    font-style: italic;
+    border-style: solid;
+    border-color: black;
+    background-color: lightgray;
 }
