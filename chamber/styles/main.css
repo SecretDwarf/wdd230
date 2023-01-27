@@ -1,0 +1,50 @@
+main {
+    grid-template: columns 1fr;
+    al
+}
+.hero {
+    font-style: italic;
+    border-style: solid;
+    border-color: lightgray;
+    background-color: lightgray;
+}
+.event {
+    font-style: italic;
+    border-style: solid;
+    border-color: #666;
+    background-color: gray;
+}
+.weather {
+    font-style: italic;
+    border-style: solid;
+    border-color: #666;
+    background-color: gray;
+}
+.news {
+    font-style: italic;
+    border-style: solid;
+    border-color: #666;
+    background-color: gray;
+}
+.spotlight {
+    font-style: italic;
+    border-style: solid;
+    border-color: #666;
+    background-color: gray;
+}
+.spotlight1 {
+    font-style: italic;
+    border-style: solid;
+    border-color: #666;
+    background-color: gray;
+}
+.spotlight2 {
+    font-style: italic;
+    border-style: solid;
+    border-color: #666;
+    background-color: gray;
+}
+.join {
+    font-style: italic;
+    display: none;
+}
