@@ -1,127 +1,333 @@
-/* max width 500 */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Prata&display=swap');
 
-.navigation {
-  background-color: lightgray;
+/* Set up for everything */
+
+* {
+    font-family: Prata, sans-serif;
 }
 
-main {
-  grid-template: columns 1fr;
+.banner-meeting {
+    text-align: center;
+    text-shadow: 5px 2px #0091c17e;
+    color: black;
+    background-color: #0090C1;
+    border-radius: 20px;
 }
-.hero, .event, .weather, .news, .spotlight, .spotlight1, .spotlight2,
+
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+    font-family: Prata, sans-serif;
+    padding: 5px;
+}
+
+p {
+    font-family: Hind Vadodara, sans-serif;
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #0090C1;
+    margin: 10px;
+    padding: 15px;
+    color: black;
+    font-family: Hind Vadodara, sans-serif;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+  width: 200px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  padding-right: 1.5rem;
+}
+
+.logo p {
+    padding-top: 1.75rem;
+}
+
+header p span {
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+#iconsSideHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.socialMediaIcons {
+    grid-column: 1/2;
+}
+
+.socialMediaIcons img {
+    padding-top: 2.1rem;
+    width: 25px;
+    height: auto;
+    padding-left: 0px;
+    margin-left: 2px;
+    border: 0px;
+}
+
+.ham {
+    padding-top: 2.1rem;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-family: Hind Vadodara, sans-serif;
+}
+
+.navContainer {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+}
+
+nav a {
+    padding: 2.5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-family: Hind Vadodara, sans-serif;
+}
+
+nav a:hover {
+    color: #a2e8dd;
+}
+
+header div p {
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0px;
+    text-align: left;
+    font-family: Hind Vadodara, sans-serif;
+}
+
+.material-icons {
+    color: black;
+}
+
+.date {
+    background-color: #046f8f7e;
+    grid-column: 1/3;
+    padding: 5px;
+    margin: 5px 5px 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: Hind Vadodara, sans-serif;
+}
+
+main section p span button {
+    font-family: Hind Vadodara, sans-serif;
+}
+
+main section {
+    background-color: #25a1ca2a;
+    border: 2px solid black;
+    margin: 5px;
+    min-height: 165px;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    overflow: hidden;
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    margin-bottom: -5px;
+    /* padding: auto; */
+    /* position: relative; */
+}
+
+.hero h5 {
+    position: absolute;
+    z-index: +1;
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    margin-top: -0.01rem;
+    text-shadow: 5px 2px rgba(0, 0, 0, 0.268);
+    font-family: Prata, sans-serif;
+}
+
+.joinBtn {
+    background-color: #0090C1;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    z-index: +1;
+    color: black;
+    font-weight: bolder;
+    height: 30px;
+    width: 230px;
+    font-family: Prata, sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+    /* padding: 10px; */
+}
+
+.joinBtn:hover {
+    background-color: black;
+    color: #a2e8dd;
+}
+
+.event {
+    text-align: center;
+    padding: 3px;
+}
+
+.event h2 {
+    text-shadow: 3px 2px rgba(0, 0, 0, 0.259);
+}
+
+.weather h2 {
+    text-shadow: 3px 2px rgba(0, 0, 0, 0.259);
+    grid-column: 1/3;
+}
+
+.weather {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.weather img {
+    grid-column: 1/2;
+    padding-left: 120px
+}
+
+.weather .temp {
+    grid-column: 2/3;
+    font-size: 2rem;
+    padding-right: 100px;
+}
+
+.weather-status {
+    grid-column: 1/3;
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+    margin: 0px 5px 0px 5px !important;
+}
+
+.windSpeed {
+    grid-column: 1/3;
+}
+
+.windChill {
+    grid-column: 1/3;
+}
+
+.windChill span,
+.windSpeed span {
+    margin-left: 30px;
+}
 
 .join {
-  font-style: italic;
-  border-style: solid;
-  border-color: black;
-  background-color: lightgray;
-} /* main */
-
-main {
-  max-width: 2000px;
-  margin: 0 auto;
-  /* font-family: Ubuntu, 'Times New Roman', Times, serif;
-      background-color: #cad2c5; */
+    text-align: center;
+    padding: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+.join .joinBtn-2 {
+    text-align: center;
+    padding: 10px;
+    width: 95%;
+    border-radius: 15px;
+    background-color: #0090C1;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: Prata, sans-serif;
+    font-size: 1.3rem;
 }
 
-h1,
-h2 {
-  /* font-family: Courgette, 'Times New Roman', Times, serif; */
+.joinBtn-2:hover {
+    background-color: black;
+    color: #a2e8dd;
 }
 
-main {
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+.join p {
+    padding: 30px;
 }
 
-/* Header */
-header {
-  background-color: #2f3e46;
+.newRelease {
+    text-align: center;
 }
 
-header img {
-  grid-row: 2/3;
-  width: 100%;
-}
-#date-header {
-  background-color: #584910;
-  display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
-  color: #cad2c5;
-  padding: 0.5vh 4vw;
-}
-#date-header p {
-  text-align: center;
-  margin: auto;
-  font-size: 4vw;
-}
-#facebook {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  width: 80%;
-}
-#linkedin {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  width: 80%;
-}
-.img-border {
-  border: 3px outset white;
-  display: block;
-  margin: 0 auto;
+.newRelease h2 {
+    text-shadow: 3px 2px rgba(0, 0, 0, 0.259);
 }
 
-#date-header button {
-  grid-column: 4/5;
-  background-color: #cad2c5;
-  border: 3px outset white;
-  font-size: 2rem;
-  color: #2f3e46;
+.spotlights {
+    max-height: 600px;
 }
 
-/* Nav */
-nav {
-  grid-column: 1/5;
-}
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: none;
-}
-nav ul.open {
-  margin-top: 1vh;
-  display: block;
-}
-nav ul li a {
-  display: block;
-  padding: 0.8rem 2vw;
-  text-decoration: none;
-  color: #cad2c5;
-  border-top: 1px solid #cad2c580;
-  text-align: center;
-}
-nav ul li a:hover {
-  color: #c1a227;
-}
-#ham span:nth-child(1) {
-  display: block;
-}
-#ham span:nth-child(2) {
-  display: none;
-}
-#ham.open span:nth-child(1) {
-  display: none;
-}
-#ham.open span:nth-child(2) {
-  display: block;
+.spotlights div {
+    height: auto
 }
 
-/* Footer */
+main section div {
+    border: 1px solid black;
+    height: 140px;
+    margin: 5px 0px 5px 0 !important;
+    text-align: center;
+    font-family: Hind Vadodara, sans-serif;
+}
+
+.slogan {
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    margin-right: 8px;
+}
+
+main section div h2 {
+    text-shadow: 3px 2px rgba(0, 0, 0, 0.259);
+}
+
+main section div:nth-child(1) {
+    margin: 10px 5px 0px 5px;
+}
+
+main section div:nth-child(2) {
+    margin: 0px 5px 10px 5px;
+}
+
+main section div:nth-child(3) {
+    display: none;
+}
+
+main section p {
+    margin-top: 8px;
+    margin-left: 8px;
+}
 footer {
   margin:0;
   padding:0;
@@ -142,7 +348,7 @@ footer ul{
   list-style: none;
   margin-left: -40px;
 }
-footer a{
+footer a, li{
   color: #fff;
 }
 .footer-col img{
@@ -206,7 +412,6 @@ footer a{
   background-color: #ffffff;
 }
 
-/* index */
 #hero, #event, #weather, #news, #spotlight, #spotlight1, #spotlight2, #spotlight3, #join {
   /* background-color: #84a98c;
   border: 1px solid #2f3e46; */
