@@ -2,110 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a5cab20f4d.js" crossorigin="anonymous"></script>
+    <title>Rigby Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <title>Rigby Chamber of Commerce</title>
 </head>
 <body>
-    <div class="meeting-banner">
-        <h1>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h1>
+    <div id="meeting"><h2>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></div>
+    <header>
+        <nav class="navigation">
+            <a class="ham" href="#"><span>&#9776;</span><span>X</span></a>
+            <a href="#">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Contact</a>
+        </nav>
+        <img id="logo" src="images/logo-no-background.png" alt="chamber logo">
+        <section class="headings">
+                <h1>Rigby's Chamber of Commerce</h1>
+        </section>
+
+    </header>
+    <div class="date-box">
+        <p id="date"></p>
     </div>
-<header>
-    <div class="logo">
-        <img src="images/logo-no-background.png" alt="logo" />
-        <p>Rigby's Chamber <br> of Commerce</p>
-    </div>
-    <div id="iconsSideHeader">
-        <div class="socialMediaIcons">
-            <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <main>
+        <div class='parts' id='event'>
+            <h3>Ribbon Cutting</h3>
+            <h4><img class='event_icon' src='images/diamond.png' alt='diamond icon'>The Diamond Shack</h4>
+            <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00p.m. The Diamond Shack is our newest Chamber of Commerce member and we are looking forward to their success.</p>
         </div>
-        <a class="ham" href="#">&#9776;</a>
-    </div>
-    <div class="navContainer">
-    </div>
-    <p class="date"></p>
-</header>
-<main>
-    <div class="hero">
-        <h2 class="welcome">Welcome To Rigby</h5>
-        <img src="images/Rigby-lake.jpg" alt="Rigby lake">
-        <button type="submit" class="joinBtn"> Join The Chamber</button>
-    </div>
-    <div class="event">
-        <img src="images/Rigby-Rodeo.jpg" alt="Rigby Rodeo">
-        <p> Join us for the Rigby rodeo later this year</p>
-    </div>
-    <div class="weather">
-        <h2>Weather</h2>
-        <div id="w-box">
-            <img src="images/weather.png" alt="weather icon">
-            <p class="temp"><span>33</span>°F</p>
+        <div class='parts' id='weather'>
+            <h3>Weather</h3>
+            <div id="w-box">
+                <img class="weather_img" src="images/rain.png" alt="rain weather icon">
+                <h3 class="temp"><span class='t'>33</span>&#176;F</h3>
+            </div>
+                <p class="desc">Partly Cloudy</p>
+                <hr>
+                <p>Wind Speed: <span class="ws"> 2.5</span>mph</p>
+                <p>Wind Chill: <span class="wc"> N/A</span></p>
         </div>
-        <p class="description">It's a Beautiful day</p>
-        <hr>
-        <p class="windSpeed">Wind Speed: <span class = "ws">2.5</span>mph</p>
-        <p class="windChill">Wind Chill: <span class = "wc">N/A</span></p>
-    </div>
-    <div class="news">
-        <h2>Update announced to Lorem ipsum</h2>
-        <p>Dolor sit amet. Non inventore commodi id voluptatum omnis in perferendis mollitia et eaque delectus qui officiis distinctio vel delectus sequi. Qui deleniti illo vel perferendis aliquam sit totam impedit et labore pariatur eos
-            necessitatibus ratione eos consequatur galisum non atque quia? Et numquam corporis aut placeat rerum ex dolor galisum et enim repellat est animi dolorem aut harum iure et accusamus architecto.</p>
-    </div>
-    <div class="spotlight">
-        <div class="spotlight1">
-            <h2>Veteran's Memorial</h2>
-            <img src="images/Rigby-Veterans-Memorial-Tank.jpg" alt="Veterans Memorial">
-            <p>This is the tank at Rigby's Veterans Memorial</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, possimus.</p>
+        <div class='parts' id='join'>
+            <a href='join.html'><h3>Join Us!</h3></a>
+            <p>Discover how to join the chamber or commerce and how it will benefit your organization.</p>
         </div>
-        <div class="spotlight2">
-            <h2>Farnsworth TV and Pioneer Museum</h2>
-            <img src="images/Farnsworth-TV-Pioneer-Museum.jpg" alt="Farnsworth TV Pioneer Museum">
+        <div class='parts' id='hero'>
+            <picture>
+                <source srcset="images/ammon929t.jpg" media="(min-width: 800px)">
+                <source srcset="images/ammon600t.jpg" media="(min-width: 550px)">
+                <img id="ammon" src="images/ammon400t.jpg" alt="sagebrush and fences in Ammon Idaho">
+            </picture>
+            
+            
         </div>
-    </div>
-    <div class="join">
-        <button type="submit" class="joinBtn-2">Join Us : )</button>
-        <p> <b>Join the Chamber of Commerce of Rigby and discover how we can serve you.</b></p>
-    </div>
-</main>
-<script src="scripts/scripts.js"></script>
-<footer>
-	<div class="row">
-		<div class="footer-col">
-			<a href="index.html"><img src="images/logo-no-background.png" alt="Logo"></a>
-		</div>
-		<div class="footer-col">
-			<h4>Navigation</h4>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="index.html">Page 2</a></li>
-				<li><a href="index.html">Page 3</a></li>
-				<li><a href="index.html">Page 4</a></li>
-			</ul>
-		</div>
-		<div class="footer-col">
-			<h4>Contact Us</h4>
-				<ul>
-                    <li>City Hall: (208) 745-8111</li>
-                    <li>Local Police: (208) 745-1951</li>
-                    <li>Library: (208) 745-8231</li>
-				</ul>
-		</div>
-		<div class="footer-col">
-			<h4>follow us</h4>
-			<div class="social-links">
-				<ul>
-					<li><a href="https://www.facebook.com/rigbycommunityreview" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="https://www.facebook.com/people/City-of-Rigby/100064941936338/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</footer>
+        <div class='parts' id='news'>
+            <h3>News Release</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maxime repudiandae cupiditate voluptatum ratione doloribus nulla, doloremque fugit asperiores vero? Nostrum dolorum aspernatur voluptatum, iusto suscipit provident officiis assumenda repudiandae.</p>
+        </div>
+        <div class='parts' id='spotlights'>
+            <section id="s1">
+                <h3>Thankful Transport</h3>
+                <img class='icon' src="images/truck.png" alt="truck icon">
+                <h4>"We get it there for you!"</h4>
+                <hr>
+                <p>hello@tftransport.com</p>
+                <p>+999-9999-9999 | Website</p>
+            </section>
+            <section id="s2">
+                <h3>Code Primera</h3>
+                <img class='icon' src="images/code.png" alt="code icon">
+                <h4>An after school coding instructional program.</h4>
+                <hr>
+                <p>contact@codeprim.com</p>
+                <p>+999-9999-9999 | Website</p>
+            </section>
+            <section id="s3">
+                <h3>Build a Treefort</h3>
+                <img class='icon' src="images/treehouse.png" alt="house icon">
+                <h4>Over 1000 Plans!</h4>
+                <hr>
+                <p>builda@treefort.com</p>
+                <p>+888
+            </section> 
+        </div>
+        
+    </main>
+    <footer>
+        <div id='top'>
+            <img id="logo-footer" src="images/logo.png" alt="chamber logo">
+            <div>
+                <h3>Ammon Chamber of Commerce</h3><p>124 Street, Ammon, Id</p>
+                
+            </div>
+            <div class="mail" >
+                <p><a href="mailto:someone@example.com">info@ammoncoc.org</a></p>
+                <a target="_blank" href= 'https://goo.gl/maps/DHXtwUmDxbj1rLqD6'>&#128205;</a>
+            </div>
+        </div>
+        <div id='bottom'>
+            <p>&copy; Chamber Project | Jacob Brent Briggs</p>
+            
+            
+        </div>
+    </footer>
+  <script src="scripts/scripts.js"></script>
 </body>
 </html>
