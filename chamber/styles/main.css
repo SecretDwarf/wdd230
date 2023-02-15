@@ -123,8 +123,8 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
+
 #s1, #s2, #s3 {
     border: 1px solid black;
     width: 90%;
@@ -161,7 +161,7 @@ nav {
     margin: 0;
     position: fixed;
     top: 60px;
-    align-self:baseline;
+    align-self: baseline;
     width: 125px;
     z-index: 1;
 }
@@ -207,7 +207,8 @@ nav a:first-child {
     color: #444;
     font-style: italic;
 }
-.parts h3, .parts h4, .parts p {
+
+.parts h3, .parts h4, .parts p, .parts i {
     text-align: center;
 }
 
@@ -215,6 +216,15 @@ nav a:first-child {
     padding: 0 40px;
 }
 
+.parts section i {
+    font-size: 4em;
+    margin-left: 35%;
+}
+
+.parts i{
+    font-size: 4em;
+    margin-left: 43%;
+}
 
 #top, #bottom, .date-box {
     background-color:  rgb(35, 121, 150);
@@ -245,7 +255,6 @@ footer p {
     text-align: center;
 }
 #logo-footer {
-    width: 80px;
     height: 80px;
 }
 .mail {
