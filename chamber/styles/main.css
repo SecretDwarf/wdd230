@@ -18,7 +18,6 @@ header {
     justify-content: flex-end;
     color: #393548;
     align-items: center;
-
 }
 .headings h1 {
     width: 50%;
@@ -32,7 +31,6 @@ header {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-rows: 100px 100px 100px 100px 300px;  */
     grid-gap: 10px;
     margin: 50px;
     
@@ -41,8 +39,6 @@ main {
 .parts {
     background-color: #e6dfd8;
     grid-template-columns: 1fr;
-    /* border: 1px solid black; */
-    
 }
     #weather {
         grid-column: 1/2;
@@ -87,7 +83,7 @@ main {
         height: 100%;
     }
 
-    #ammon {
+    #rigby {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -243,6 +239,85 @@ nav a:first-child {
     justify-content: space-around;
     align-items: center;
 }
+/*Join*/
+.join-container{
+    font-size: 20px;
+    /* width: 80%; */
+    margin: 50px auto;
+}
+.join-box{
+    background: #fff;
+    /* display: flex; */
+    display: block;
+}
+.join-left{
+    background: lightskyblue;
+    /* flex-basis: 60%;
+    padding: 40px 60px; */
+    padding: 80px;
+}
+.join-right{
+    /* flex-basis: 40%;
+    padding: 40px; */
+    padding: 80px;
+    background: #1c00b5;
+    color: #fff;
+}
+.join-container h1{
+    margin-bottom: 10px;
+}
+.join-container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.03);
+}
+.join-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.join-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr rd:first-child{
+    padding-right: 20px;  
+}
+tr rd{
+    padding-top: 20px;   
+}
 footer {
     padding: 0;
 }
@@ -256,8 +331,7 @@ footer h3 {
 footer a{
     text-decoration: none;
 }
-footer p {
-    
+footer p {    
     color: white;
     text-align: center;
 }
@@ -280,5 +354,3 @@ footer p {
 .date-box, #bottom {
     padding: 5px;
 } 
-
-
