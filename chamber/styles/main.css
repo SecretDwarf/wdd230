@@ -239,6 +239,46 @@ nav a:first-child {
     justify-content: space-around;
     align-items: center;
 }
+/* discover*/
+.main-discover {
+    align-items: center;
+}
+.gallery-title {
+    font-weight: 700;
+    border-bottom: 1px solid #777;
+    margin-bottom: 1rem;
+}
+
+.discover h2 {
+    font-size: 2rem;
+}
+.discover {
+    margin: 1rem auto;
+    max-width: 960px;
+}
+.gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+        place-items: center;
+}
+
+.discover figure {
+    background-color:#fff;
+}
+.discover img {
+    width: 250px;
+    height: auto;
+    margin: .25rem;
+}
+.dsicover figcaption {
+    font-size: smaller;
+}
+/* hover effect */
+.discover .hover:hover {
+    box-shadow: 0 0 50px #333;
+}
+
 /*Join*/
 .join-container{
     font-size: 20px;
