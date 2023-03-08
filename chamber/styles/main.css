@@ -28,12 +28,12 @@ header {
     color: white;
     text-align: center;
 }
+
 main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-    margin: 50px;
-    
+    margin: 50px;    
 }
 
 .parts {
