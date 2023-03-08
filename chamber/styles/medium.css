@@ -46,4 +46,13 @@
     #spotlights section:last-child   {
         display:none;
     } 
+
+    /*Discover CSS*/
+    #dis_main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery {
+        max-width: 400px;
+        width: 80%;
+    }
 }

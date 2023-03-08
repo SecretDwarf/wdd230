@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rigby Chamber of Commerce</title>
     <link href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAPv/AAAAAAADwAAAD/AAABw4AAA73AAAN+wAAHfuAAB//gAAeZ4AAHmeAAA//AAAP/wAAB/4AAAP8AAAA8AAAAAAAAD8PwAA8A8AAOAHAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAA4AcAAPAPAAD8PwAA" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="https://kit.fontawesome.com/a5cab20f4d.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -32,60 +32,45 @@
     <div class="date-box">
         <p id="date"></p>
     </div>
-    <main>
-        <div class="join-container">
-            <br>
-            <br>
-            <br>
-            <h1>Join Us</h1>
-            <p>Come join us today!</p>
-            <div class="join-box">
-                <div class="join-left">
-                    <h3>Send your request</h3>
-                    <form>
-                        <div class="input-row">
-                            <div class="input-group">
-                                <label>Name</label>
-                                <input type="text" placeholder= "Mr. Sir">  
-                            </div>
-                            <div class="input-group">
-                                <label>Phone Number</label>
-                                <input type="text" placeholder= "(123)-456-7890">
-                            </div>
-                            <div class="input-group">
-                                <label>Subject</label>
-                                <input type="text" placeholder= "Message Subject">
-                            </div>
-                        </div>
-    
-                        <label>Message</label>
-                        <textarea rows="5" placeholder="Your message goes here..."></textarea>
-                        <button type="submit">Send</button>
-                    </form>
-                </div>
-    
-                <div class="join-right">
-                    <h3>Reach us</h3>
-                    <table>
-                        <tr>
-                            <td><i class="fa-solid fa-phone"></i>  Phone<br> 208-360-3258</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fa-regular fa-envelope-open"></i>  Email<br> BPAutosales@imaginary.com</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fa-solid fa-envelopes-bulk"></i>  Address<br> 3497 N Ammon Rd, Idaho Falls, ID 83401</td>
-                        </tr>
-                    </table>
-                    <br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.772291515953!2d-111.96747352519051!3d43.52794096052521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53545de64c496941%3A0xcca5ad9527fc023a!2sBonneville%20Online%20High%20School!5e0!3m2!1sen!2sus!4v1670607007557!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </div>
-        <hr>
-    <script src = "scripts/nav.js"></script>
-    
+    <main id="dis_main">
+        <figure>
+            <img class='gallery' src="http://dummyimage.com/780x520/ccc/fff" data-src="images/gallery1.jpg" alt="weather image">
+            <figcaption>Visit our Beautiful Water Ways</figcaption>
+        </figure>
+        <figure>
+            <img class='gallery' src="http://dummyimage.com/780x520/ccc/fff" data-src="images/gallery2.jpg" alt="weather image">
+            <figcaption>Enjoy the Lake Life</figcaption>
+        </figure>
+        <figure>
+            <img class='gallery' src="http://dummyimage.com/780x520/ccc/fff" data-src="images/gallery3.jpg" alt="weather image">
+            <figcaption>Beautiful in any Season</figcaption>
+        </figure>
+        <figure>
+            <img class='gallery' src="http://dummyimage.com/780x520/ccc/fff" data-src="images/gallery4.jpg" alt="weather image">
+            <figcaption>Farming Community</figcaption>
+        </figure>
+        <figure>
+            <img class='gallery' src="http://dummyimage.com/780x520/ccc/fff" data-src="images/gallery5.jpg" alt="weather image">
+            <figcaption>Recreational Activities</figcaption>
+        </figure>
+        <figure>
+            <img class='gallery' src="http://dummyimage.com/780x520/ccc/fff" data-src="images/gallery6.jpg" alt="weather image">
+            <figcaption>Natures Beauty</figcaption>
+        </figure>
+        <figure>
+            <img class='gallery' src="http://dummyimage.com/780x520/ccc/fff" data-src="images/gallery7.jpg" alt="weather image">
+            <figcaption>Ammon's Finest</figcaption>
+        </figure>
+        <figure>
+            <img class='gallery' src="http://dummyimage.com/780x520/ccc/fff" data-src="images/gallery8.jpg" alt="weather image">
+            <figcaption>Amazing Landscapes</figcaption>
+        </figure>
+        <figure>
+            <img class='gallery' src="http://dummyimage.com/780x520/ccc/fff" data-src="images/gallery9.jpg" alt="weather image">
+            <figcaption>The Great Outdoors</figcaption>
+        </figure>
     </main>
+    <h2 id="days">Days since last visited: <span id='diff'></span></h2>
     <footer>
         <div id='top'>
             <img id="logo-footer" src="images/logo-no-background.webp" alt="chamber logo">
@@ -101,6 +86,6 @@
             <p>&copy; Rigby Chamber of Commerce | Jacob Brent Briggs</p>
         </div>
     </footer>
-  <script src="scripts/scripts.js"></script>
+  <script src="scripts/join.js"></script>
 </body>
 </html>
