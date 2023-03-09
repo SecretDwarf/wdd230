@@ -147,13 +147,11 @@ h3 {
 }
 #tag {
     text-align: center;
-
 }
 #logo {
     width: 150px;
     padding: 20px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 nav {
     background-color:  rgb(35, 121, 150);
@@ -239,8 +237,6 @@ nav a:first-child {
     justify-content: space-around;
     align-items: center;
 }
-
-/* Directory Page CSS */
 
 .views {
     width: 50px;
