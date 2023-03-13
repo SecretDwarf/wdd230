@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rigby Chamber of Commerce</title>
-    <link href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAPv/AAAAAAADwAAAD/AAABw4AAA73AAAN+wAAHfuAAB//gAAeZ4AAHmeAAA//AAAP/wAAB/4AAAP8AAAA8AAAAAAAAD8PwAA8A8AAOAHAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAA4AcAAPAPAAD8PwAA" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="https://kit.fontawesome.com/a5cab20f4d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/main.css">
@@ -22,7 +21,7 @@
             <a href="join.html">Join</a>
             <a href="contact.html">Contact</a>
         </nav>
-        <img id="logo" src="images/logo-color.webp" alt="chamber logo">
+        <img id="logo" src="images/logo-no-background.webp" alt="chamber logo">
         <section class="headings">
                 <h1>Rigby's Chamber of Commerce</h1>
         </section>
@@ -40,14 +39,12 @@
         </div>
         <div class='parts' id='weather'>
             <h3>Weather</h3>
-            <div id="w-box">
-                <img class="weather_img" src="images/weather.png" alt="weather icon">
-                <h3 class="temp"><span class='t'>33</span>&#176;F</h3>
-            </div>
-                <p class="desc">Partly Cloudy</p>
-                <hr>
-                <p>Wind Speed: <span class="ws"> 2.5</span>mph</p>
-                <p>Wind Chill: <span class="wc"> N/A</span></p>
+            <h3>Rigby, Idaho Weather</h3>
+            <img id="weather_icon" alt="Weather Icon"/>
+            <h3 id="temp"><span id='t'></span>°F</h3>
+            <p id='condition'></p>
+            <p>WindSpeed: <span id='ws'>/NA </span> mph</p>
+            <p>Wind Chill: <span class="wc"> N/A</span></p>
         </div>
         <div class='parts' id='join'>
             <a href='join.html'><h3>Join Us!</h3></a>
@@ -98,16 +95,15 @@
             <img id="logo-footer" src="images/logo-no-background.webp" alt="chamber logo">
             <div>
                 <h3>Rigby Chamber of Commerce</h3><p>124 Street, Rigby, Id</p>
+                <p>&copy; Rigby Chamber of Commerce | Jacob Brent Briggs</p>
             </div>
             <div class="mail" >
                 <p><a href="mailto:someone@example.com">info@RigbyChamber.org</a></p>
                 <a target="_blank" href= 'https://goo.gl/maps/7hpe32ZpmuhQs8RP9'>Map - <i class="fa-regular fa-map"></i></a>
             </div>
         </div>
-        <div id='bottom'>
-            <p>&copy; Rigby Chamber of Commerce | Jacob Brent Briggs</p>
-        </div>
     </footer>
   <script src="scripts/scripts.js"></script>
+  <script src="scripts/weather.js"></script>
 </body>
 </html>
