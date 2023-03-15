@@ -1,84 +1,75 @@
 {
     "business": [{
-            "name": "Camelodromo Londrina",
-            "address": "Rua Para, 450",
-            "phone": "(43) 3356-7982",
-            "web-url": "https://www.camelodromodelondrina.com.br/",
-            "image": "images/camelo-londrina.webp",
-            "membership": "Bronze",
-            "owner": "Municipio de Londrina"
+            "name": "AAA Paving",
+            "address": "451 N 4200 E",
+            "phone": "208-745-8059",
+            "web-url": "https://www.aaapaving.biz/",
+            "image": "images/placeholder.png",
+            "membership": "Bronze"
         },
         {
-            "name": "Vitamina da Sergipe",
-            "address": "Rua Sergipe, 200",
-            "phone": "(43) 3356-8982",
-            "web-url": "https://www.instagram.com/vitaminadasergipe/",
-            "image": "images/vitamina-sergipe.webp",
-            "membership": "Gold",
-            "owner": "Seu José"
+            "name": "AH Digital FX Studios, INC",
+            "address": "10551 E. Ririe Hwy, Idaho Falls, ID 83401",
+            "phone": "(208) 528-6748",
+            "web-url": "http://www.ahfx.net/",
+            "image": "images/placeholder.png",
+            "membership": "Gold"
         },
         {
-            "name": "Boulevard Londrina",
-            "address": "Avenida Theodoro Victorelli , 150",
-            "phone": "(43) 3375-4951",
-            "web-url": "https://boulevardlondrinashopping.com.br/",
-            "image": "images/boulevard-londrina.webp",
-            "membership": "Gold",
-            "owner": "Chinese Corp Group"
+            "name": "Alliance Title & Escrow Corp",
+            "address": "581 Rigby Lake Dr; PO Box 566; Rigby ID 83442",
+            "phone": "745-9495",
+            "web-url": "https://www.alliancetitle.com/",
+            "image": "images/placeholder.png",
+            "membership": "Gold"
         },
         {
-            "name": "Magazine Luiza",
-            "address": "Calçadão, 2500",
-            "phone": "(43) 3355-8578",
-            "web-url": "https://www.magazineluiza.com.br/",
-            "image": "images/magazine-londrina.webp",
-            "membership": "Silver",
-            "owner": "Magalu Corp"
+            "name": "AmeriTitle",
+            "address": "480 Rigby Lake Dr, Rigby, ID 83442",
+            "phone": "208-745-1090",
+            "web-url": "https://www.amerititle.com/",
+            "image": "images/placeholder.png",
+            "membership": "Silver"
         },
         {
-            "name": "Chiquinho Sorvetes",
-            "address": "Rua Pio XII, 230",
-            "phone": "(43) 3029-9447",
-            "web-url": "https://chiquinho.com.br/",
+            "name": "Archibald Insurance Center Inc",
+            "address": "153 East Main; Rigby, ID 83442",
+            "phone": "745-6666",
+            "web-url": "N/A",
             "image": "images/chiquinho-londrina.webp",
-            "membership": "Bronze",
-            "owner": "Chiquinho Corp"
+            "membership": "Bronze"
         },
         {
-            "name": "K2 Mangá Point",
-            "address": "Rua Andirá, 37",
-            "phone": "(43) 3323-1516",
-            "web-url": "https://www.facebook.com/kdoismangapoint/",
-            "image": "images/k2-londrina.webp",
-            "membership": "Silver",
-            "owner": "Lord Tcheco"
+            "name": "Axis Idaho Realty",
+            "address": "102 N Clark, Rigby ID 83442",
+            "phone": "208-745-9393",
+            "web-url": "https://www.axisidahorealty.com/",
+            "image": "images/placeholder.png",
+            "membership": "Silver"
         },
         {
-            "name": "Epesmel",
-            "address": "Rua Angelina Ricci Vezozzo, 85",
-            "phone": "(43) 3325-4128",
-            "web-url": "https://epesmel.org.br/",
-            "image": "images/epesmel-londrina.webp",
-            "membership": "NP",
-            "owner": "Padres Murialdo"
+            "name": "B & B Builders",
+            "address": "142 West Main, Ste 101; Rigby, ID 83442",
+            "phone": "745-0870",
+            "web-url": "https://bbbuilders.com/",
+            "image": "images/",
+            "membership": "Bronze"
         },
         {
-            "name": "Demolay Capitulo #136 - Londrina",
-            "address": "Rua Governador Valadares, 350",
-            "phone": "(43) 33328-3185",
-            "web-url": "https://www.facebook.com/CapituloLondrina136/?locale=pt_BR",
-            "image": "images/demolay-londrina.webp",
-            "membership": "NP",
-            "owner": "Maçonaria Londrina"
+            "name": "Bank of Commerce",
+            "address": "463 Rigby Lake Drive; Rigby, ID 83442",
+            "phone": "208-745-7610",
+            "web-url": "https://www.bofc.bank/",
+            "image": "images/placeholder.png",
+            "membership": "Gold"
         },
         {
-            "name": "Arnaldo's Lanches",
-            "address": "Avenida Bandeirantes, 55",
-            "phone": "(43) 3339-9898",
-            "web-url": "http://www.arnaldos.com.br/",
-            "image": "images/arnaldos-londrina.webp",
-            "membership": "Gold",
-            "owner": "Municipio de Londrina"
+            "name": "Beehive Federal Credit Union",
+            "address": "250 South State; Rigby, ID 83442",
+            "phone": "656-1000",
+            "web-url": "https://beehive.org/",
+            "image": "images/placeholder.png",
+            "membership": "Gold"
         }
 
     ]
