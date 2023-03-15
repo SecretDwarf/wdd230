@@ -10,8 +10,6 @@ function toggleMenu(){
 
 hambutton.addEventListener('click', toggleMenu);
 
-
-
 let w_names = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 let m_names = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 let mydate = new Date();
