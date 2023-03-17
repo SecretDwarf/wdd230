@@ -27,7 +27,7 @@ const parent = document.querySelector('#meeting');
 if (mydate.getDay() == 1 || mydate.getDay() == 2) {
     mainnav.style.top = '180px';
     parent.style.display = 'block';
-}
+};
 
 const temp = document.querySelector('.t').textContent;
 const ws = document.querySelector('.ws').textContent;

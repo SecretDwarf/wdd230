@@ -19,7 +19,6 @@ header {
     justify-content: flex-end;
     color: #393548;
     align-items: center;
-    padding-right: 100px;
 }
 .headings h1 {
     color: white;
@@ -158,6 +157,11 @@ h3 {
     padding: 20px;
     margin: 0 auto;    
 }
+#footerLogo {
+    width: 150px;
+    padding: 20px;
+    margin: 0 auto;
+}
 nav {
     background-color:  rgb(35, 121, 150);
     padding: 0 15px;
@@ -257,10 +261,6 @@ footer p {
     
     color: white;
     text-align: center;
-}
-#logo-footer {
-    width: 145px;
-    height: auto;
 }
 
 .views {
