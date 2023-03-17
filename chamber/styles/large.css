@@ -9,6 +9,7 @@
     nav a:first-child {
         display: none;
     }
+    
     nav a {
         display: block;
     }
@@ -20,6 +21,7 @@
     header {
         justify-content: space-evenly;
         flex-direction: row-reverse;
+        padding-right: 100px;
     }
     .headings h1 {
         width: 100%;

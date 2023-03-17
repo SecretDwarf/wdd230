@@ -189,6 +189,10 @@ nav a:first-child {
     text-align: center;
     font-size: 2.5em;
 }
+a .ham{
+    position: sticky;
+    top: 0;
+}
 .responsive a{
     display: block;
 }
