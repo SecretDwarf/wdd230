@@ -233,7 +233,7 @@ nav a:first-child {
 #top {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    padding: 15px;
     justify-content: space-around;
     align-items: center;
 }
@@ -492,4 +492,54 @@ td {
 
 tr:nth-of-type(even) {
     background-color: #0091c164;
+}
+
+/* Join */
+#join_content {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+label, input {
+    display: block;
+    font-size: 1.5em;
+}
+label {
+    margin: 20px 0 0 0;
+}
+input {
+    height: 50px;
+    border-radius: 10px;
+}
+input[type='radio']{
+    height: 20px;
+    border-radius: 5px;
+}
+form input:required {
+    border-left: red solid 6px;
+}
+form input:required:valid {
+    border-left: green solid 6px;
+}
+#radio {
+    display: grid;
+    grid-template-columns: 60px 100px;
+}
+#radio label, #radio input {
+    margin: 0;
+}
+
+textarea {
+    height: 150px;
+}
+input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+input[type='submit']{
+    height: 80px;
+    border-radius: 10px;
+    background-color:rgb(35,121,150);
+    color: white;
 }
