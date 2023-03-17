@@ -19,6 +19,7 @@ header {
     justify-content: flex-end;
     color: #393548;
     align-items: center;
+    padding-right: 100px;
 }
 .headings h1 {
     color: white;
