@@ -4,7 +4,7 @@
             "address": "451 N 4200 E",
             "phone": "208-745-8059",
             "web-url": "https://www.aaapaving.biz/",
-            "image": "images/placeholder.png",
+            "image": "images/directory/AAAPaving.png",
             "membership": "Bronze"
         },
         {
@@ -12,7 +12,7 @@
             "address": "10551 E. Ririe Hwy, Idaho Falls, ID 83401",
             "phone": "(208) 528-6748",
             "web-url": "http://www.ahfx.net/",
-            "image": "images/placeholder.png",
+            "image": "images/directory/AHFX.png",
             "membership": "Gold"
         },
         {
@@ -20,7 +20,7 @@
             "address": "581 Rigby Lake Dr; PO Box 566; Rigby ID 83442",
             "phone": "745-9495",
             "web-url": "https://www.alliancetitle.com/",
-            "image": "images/placeholder.png",
+            "image": "images/directory/alliancetitle.png",
             "membership": "Gold"
         },
         {
@@ -28,23 +28,15 @@
             "address": "480 Rigby Lake Dr, Rigby, ID 83442",
             "phone": "208-745-1090",
             "web-url": "https://www.amerititle.com/",
-            "image": "images/placeholder.png",
+            "image": "images/directory/AmeriTitle.png",
             "membership": "Silver"
-        },
-        {
-            "name": "Archibald Insurance Center Inc",
-            "address": "153 East Main; Rigby, ID 83442",
-            "phone": "745-6666",
-            "web-url": "N/A",
-            "image": "images/chiquinho-londrina.webp",
-            "membership": "Bronze"
         },
         {
             "name": "Axis Idaho Realty",
             "address": "102 N Clark, Rigby ID 83442",
             "phone": "208-745-9393",
             "web-url": "https://www.axisidahorealty.com/",
-            "image": "images/placeholder.png",
+            "image": "images/directory/AXIS.png",
             "membership": "Silver"
         },
         {
@@ -52,7 +44,7 @@
             "address": "142 West Main, Ste 101; Rigby, ID 83442",
             "phone": "745-0870",
             "web-url": "https://bbbuilders.com/",
-            "image": "images/",
+            "image": "images/directory/B&B.png",
             "membership": "Bronze"
         },
         {
@@ -60,7 +52,7 @@
             "address": "463 Rigby Lake Drive; Rigby, ID 83442",
             "phone": "208-745-7610",
             "web-url": "https://www.bofc.bank/",
-            "image": "images/placeholder.png",
+            "image": "images/directory/BOC.png",
             "membership": "Gold"
         },
         {
@@ -68,7 +60,7 @@
             "address": "250 South State; Rigby, ID 83442",
             "phone": "656-1000",
             "web-url": "https://beehive.org/",
-            "image": "images/placeholder.png",
+            "image": "images/directory/Beehive.png",
             "membership": "Gold"
         }
 

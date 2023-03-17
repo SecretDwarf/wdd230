@@ -385,3 +385,110 @@ tr rd:first-child{
 tr rd{
     padding-top: 20px;   
 }
+
+/* directory */
+#directory {
+    display: block;
+}
+
+#view {
+    text-align: center;
+    font-size: 3.5rem;
+    cursor: pointer;
+    padding: 30px;
+    color: #0090C1;
+}
+
+#cards,
+#list {
+    border: #0090C1 5px solid;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 410px;
+    height: 350px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0091c164;
+    box-shadow: 0px 4px 8px #0091c164;
+    border-radius: 5px;
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.card img {
+    width: 80%;
+    height: 70%;
+    max-height: 200px;
+    /* object-fit: cover; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card h3 {
+    margin: 10px;
+    text-align: center;
+}
+
+.card p {
+    margin: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.card-body {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-link {
+    font-size: 16px;
+    color: rgb(6, 6, 7);
+    /* text-decoration: underline; */
+    cursor: pointer;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    margin: 50px auto;
+    font-size: 1em;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    display: block;
+    /* for larger view use display: table-cell */
+}
+
+tr:nth-of-type(even) {
+    background-color: #0091c164;
+}

@@ -1,5 +1,5 @@
 async function fetchData() {
-    const response = await fetch("https://github.com/SecretDwarf/wdd230/tree/main/chamber/json/directory.json");
+    const response = await fetch("https://secretdwarf.github.io/wdd230/chamber/json/directory.json");
     const data = await response.json();
     createTable(data.business);
     return data.business;
