@@ -55,6 +55,9 @@
         max-width: 400px;
         width: 80%;
     }
+    .gallery:hover {
+        box-shadow: 0 0 20px rgba(33,33,33);
+    }
 }
 
 @media only screen and (min-width: 550px) and (max-width: 800px) {
