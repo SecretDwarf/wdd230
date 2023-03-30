@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=&family=Vollkorn:ital@1&display=swap');
+body {
+    background-color: #309981;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#content {
+    background-color: white;
+    padding: 30px;
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 7px;    
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h1, h2 {
+    padding: 10px;
+}
+h3 {
+    font-family: 'Vollkorn', serif;
+}
+ol, ul {
+    text-align: left;
+}
+p {
+    line-height: 1.5em;
+}
+p, .Vollkorn {
+    font-family: 'Vollkorn', serif;
+}
+p, ol {
+    margin-left: 6em;
+    margin-right: 6em;
+    font-family: 'Vollkorn', serif;
+}
+ol li {
+    line-height: 1.5em;
+}
+.logo {
+    width: 190px;
+    padding-bottom: 50px;
+}
+.primary, .secondary, .accent1, .accent2, .accent3 {
+    margin: 40px 0 15px 0;
+}
+nav ul {
+    padding-inline-start: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #FBD1A2;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 3px 7px 10px #888888;
+}
+nav li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 60px 20px 60px;
+}
+nav a:hover {
+    color: black;
+}
+nav li:hover {
+    background-color: #D49D9A;
+}
+nav li a:hover {
+    background-color: #D49D9A;
+}
+.person {
+    overflow: hidden;
+    height: 200px;
+    clip: rect(0px,60px,200px,0px);
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.primary {
+    background-color: #CCDBDC;
+}
+.secondary {
+    background-color: #FBD1A2;
+}
+.accent1 {
+   background-color: #7DCFB6;
+}
+
+.sitemap {
+    width: 100%;
+}
+main a {
+    font-size: 1.5em;
+    color:#FBD1A2;
+    font-family: 'Poppins', sans-serif;
+}
+footer {
+    padding-top: 30px;
+}
+@media screen and (max-width: 1000px) { 
+    nav a {
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 750px) { 
+    nav ul {
+        display: block;
+    }
+    nav li {
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        font-size: 1.3em;
+    }
+    p, ol {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
