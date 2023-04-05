@@ -1,0 +1,6 @@
+@media screen and (min-width: 550px) {
+    
+    .headings h1 {
+        visibility: visible;
+    }
+}
