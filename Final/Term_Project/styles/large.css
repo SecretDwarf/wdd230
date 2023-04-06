@@ -1,38 +1,16 @@
 @media screen and (min-width: 800px) {
-    nav {
-        flex-direction: row;
-        justify-content: space-between;
-        position: static;
-        align-self: center;
-        width: 100%;
-    }
-    nav a:first-child {
-        display: none;
-    }
-    
-    nav a {
-        display: block;
-    }
-/* 
-    nav a:hover {
-        color: black;
-        background-color: rgba(35, 121, 150, .5);
-    } */
-    header {
-        justify-content: space-evenly;
-        flex-direction: row-reverse;
-        padding-right: 100px;
-    }
-    .headings h1 {
-        width: 100%;
-    }
     .contentbox {
         max-width: 800px;
     }
     footer {
         margin: 0 auto;
     }
-    logo {
-        margin: 0 15px;
+    .nav-items{
+        font-size: 60px;
+        height: 200px;
+    } 
+    .navigation #logo {
+        width: 150px;
+        height: auto;
     }
-  }
+}

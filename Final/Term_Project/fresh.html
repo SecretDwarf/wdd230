@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://kit.fontawesome.com/a5cab20f4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <title>Independent Smoothie CO</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+          <a href="index.html"><img id="logo" src="images/logo-transparent-png.png" alt ="main logo"></a>
+          <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="fresh.html">Fresh</a>
+            <a href="aboutUs.html">About Us</a>
+          </div>
+        </nav>
+    </header>
+    <main class="fresh">
+        <h2>Create a Smoothie!</h2>
+        <form id="mix-form" onsubmit="formSubmission(event)">
+            <label for="name">First Name</label>
+            <input id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="name@domain.com" required>
+
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="xxx-xxx-xxxx" required>
+
+            <div id="mix-form-select">
+                <input type="checkbox" id="fruit1" name="fruit" value="fruit1">
+                <label id="fruit1-label" for="fruit1">Fruit 1</label>
+                <input type="checkbox" id="fruit2" name="fruit" value="fruit2">
+                <label id="fruit2-label" for="fruit2">Fruit 2</label>
+                <input type="checkbox" id="fruit3" name="fruit" value="fruit3">
+                <label id="fruit3-label" for="fruit3">Fruit 3</label>
+            </div>
+
+            <label for="instructions">Special Instructions</label>
+            <input type="text" id="instructions" name="instructions">
+
+            <input id="submit-button" type="submit" value="Create Your Smoothie!">
+        </form>
+        <div id="mix-form-results"></div>
+    </main>
+    <footer>
+        <div id='top'>
+            <a href = "index.html"><img id="footerLogo" src="images/logo-transparent-png.png" alt ="footer logo"></a>
+            <div>
+                <h3>Independent Smoothie Office</h3><p>124 Street, Rigby, Id</p>
+                <p>&copy; Independent Smoothie Company | Jacob Brent Briggs</p>
+            </div>
+            <div class="mail" >
+                <p><a href="mailto:someone@example.com">independentSmoothie.com</a></p>
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>

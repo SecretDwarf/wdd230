@@ -1,28 +1,16 @@
-//Last Modified Date --- Footer
-let currentDate = document.lastModified;
-document.querySelector('#updated').textContent = currentDate;
-
-//Hamburger Menu
-function toggleMenu() {
-    document.querySelector('#primaryNav').classList.toggle('open');
-    document.querySelector('#hamburger-button').classList.toggle('open');
-}
-const x = document.querySelector('#hamburger-button');
-x.onclick = toggleMenu;
-
 //Weather API
 const apiURL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/carlsbad%2C%20ca?unitGroup=us&key=XE85QN9QJMKB89YTMJBMKU2DJ&contentType=json";
 const getWeather = async () => {
     const response = await fetch(apiURL);
     const data = await response.json();
-    document.querySelector('#home--weather-degree').innerHTML = "Current Temp: " + data.currentConditions.temp.toFixed(1) + "&#176;F\nHumidity: " + data.currentConditions.humidity;
-    document.querySelector('#home--weather-degreeDayOne').textContent = data['days'][1].datetime + " --- " + data['days'][1].temp.toFixed(1);
-    document.querySelector('#home--weather-degreeDayTwo').textContent = data['days'][2].datetime + " --- " + data['days'][2].temp.toFixed(1);
-    document.querySelector('#home--weather-degreeDayThree').textContent = data['days'][3].datetime + " --- " + data['days'][3].temp.toFixed(1);
+    document.querySelector('#weather-degree').innerHTML = "Current Temp: " + data.currentConditions.temp.toFixed(1) + "&#176;F\nHumidity: " + data.currentConditions.humidity;
+    document.querySelector('#weather-degreeDayOne').textContent = data['days'][1].datetime + " --- " + data['days'][1].temp.toFixed(1);
+    document.querySelector('#weather-degreeDayTwo').textContent = data['days'][2].datetime + " --- " + data['days'][2].temp.toFixed(1);
+    document.querySelector('#weather-degreeDayThree').textContent = data['days'][3].datetime + " --- " + data['days'][3].temp.toFixed(1);
     let image = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/main/SVG/1st%20Set%20-%20Color/${data.currentConditions.icon}.svg`;
-    document.querySelector('#home--weather-forecast').textContent = "Today's Weather Forecast is: " + data.currentConditions.conditions;
-    document.querySelector('#home--weather-icon').src = image;
-    document.querySelector('home--#weather-icon').alt= data.currentConditions.conditions + ' icon';
+    document.querySelector('#weather-forecast').textContent = "Today's Weather Forecast is: " + data.currentConditions.conditions;
+    document.querySelector('#weather-icon').src = image;
+    document.querySelector('#weather-icon').alt= data.currentConditions.conditions + ' icon';
 }
 getWeather();
 
@@ -91,7 +79,7 @@ function formSubmission(event) {
             }
         }
     }
-    document.querySelector('#home--fresh-form-results').innerHTML =
+    document.querySelector('split-history').innerHTML =
     `
     <br>
     <h2>Form Values:</h2>
@@ -115,13 +103,13 @@ function formSubmission(event) {
 
     localStorage.setItem(0, numDrinks);
 
-    document.getElementById('home--fresh-form-results').style.display = 'block';
+    document.getElementById('fresh-form-results').style.display = 'block';
 }
 
-//Display Number of Drinks Ordered on Home Page including a clear button.
-    document.querySelector('#home--info-card-drinks').innerHTML = `${numDrinks}`;
+//Number of Drinks
+    document.querySelector('#info-card-drinks').innerHTML = `${numDrinks}`;
 
-    document.getElementById("home--info-card-drinks-reset").addEventListener("click", clear);
+    document.getElementById("info-card-drinks-reset").addEventListener("click", clear);
 
     function clear() {
         localStorage.clear()

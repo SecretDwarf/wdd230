@@ -1,6 +1,12 @@
 @media screen and (min-width: 550px) {
-    
-    .headings h1 {
-        visibility: visible;
+    .nav-items{
+        font-size: 45px;
+    } 
+    .navigation #logo {
+        width: 200px;
+        height: auto;
+    }
+    .navigation {
+        height: 185px;
     }
 }
