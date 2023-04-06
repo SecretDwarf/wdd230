@@ -3,7 +3,7 @@
     display: flex;
     height: 75px;
     justify-content: space-between;
-    background: #666;
+    background: #F79256;
     align-items: center;
 }
 
@@ -27,33 +27,8 @@
     height: 75px;
 }
 
-.contentbox {
-    margin: 10px auto;
-    border: 1px dashed #000;
-    padding: 15px;
-    background-color: #ccc;
-    color: #444;
-    font-style: italic;
-}
-
-.parts h3, .parts h4, .parts p, .parts i {
-    text-align: center;
-}
-
-.parts p {
-    padding: 0 40px;
-}
-
-.parts section i {
-    font-size: 4em;
-}
-
-.parts i{
-    font-size: 4em;
-}
-
 #top, #bottom, .date-box {
-    background-color:  rgb(35, 121, 150);
+    background-color:  #F79256;
 }
 #top {
     display: flex;
@@ -88,8 +63,10 @@ footer p {
 }
 .grid-container {
     display: grid;
+    background: #FBD1A2;
     max-width: 100%;
     grid-template-columns: repeat(2, 50%);
+    color: #FAF9F6;
 }
 .grid-container p {
     max-width: 100%;
@@ -103,7 +80,7 @@ footer p {
     padding-bottom: 15px;
 }  
 .split, .split-history {
-    background-color: lightgray;
+    background-color: #7DCFB6;
     border: 5px solid #fff;
 }
 #grid-item {
@@ -113,20 +90,24 @@ footer p {
     align-items: center;
     padding: 15px;
 }
+
 #weather-icon {
     width: 25%;
 }
 
 /* Fresh Page */
-#mix-form {
-    margin: 10px;
+.fresh {
+    background: #7DCFB6;
     padding: 5px;
-    border: 2px solid #344966;
+}
+#mix-form {
+    margin: 25px;
+    padding: 10px;
+    border: 2px solid #F79256;
     display: flex;
-    background-color: #547AA5;
-    color: #CADBC0;
+    background-color: #FBD1A2;
+    color: #FAF9F6;
     flex-direction: column;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }
 
 #mix-form-results {
@@ -139,7 +120,10 @@ footer p {
     text-align: center;
 }
 
-#mix h2 {text-align: center;}
+#mix h2 {
+    text-align: center;
+    margin: 0;
+}
 
 #mix-form input {
     height: 40px;
