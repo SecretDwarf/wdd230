@@ -68,7 +68,7 @@ function formSubmission(event) {
                 totalCarbs += data1[fruit2].nutritions.carbohydrates;
                 totalProtein += data1[fruit2].nutritions.protein;
                 totalFat += data1[fruit2].nutritions.fat;
-                totalSugar += data1[fruit2].nutritions.sugar;
+                totalSugar += data1[fruit2].nutritions.sugar
                 totalCalories += data1[fruit2].nutritions.calories;
             } else if (checkbox.value == data1[fruit3].name) {
                 totalCarbs += data1[fruit3].nutritions.carbohydrates;
@@ -79,10 +79,8 @@ function formSubmission(event) {
             }
         }
     }
-    document.querySelector('split-history').innerHTML =
-    `
-    <br>
-    <h2>Form Values:</h2>
+    document.querySelector('#mix-form-results').innerHTML = `<br>
+    <h2>Order Information:</h2>
     <hr>
     <p>First Name: ${event.target.elements.name.value}</p>
     <p>Email: ${event.target.elements.email.value}</p>
@@ -103,15 +101,21 @@ function formSubmission(event) {
 
     localStorage.setItem(0, numDrinks);
 
-    document.getElementById('fresh-form-results').style.display = 'block';
+    const element = document.getElementById('mix-form-results');
+    element.style.display = "flex";
+    element.style.alignItems = "center";
+    element.style.justifyContent = "center";
+    element.style.backgroundColor = "#FBD1A2";
+    element.style.color = "#FAF9F6";
+    element.style.flexDirection = "column";
+
 }
-
 //Number of Drinks
-    document.querySelector('#info-card-drinks').innerHTML = `${numDrinks}`;
+document.querySelector('#home--info-card-drinks').innerHTML = `${numDrinks}`;
 
-    document.getElementById("info-card-drinks-reset").addEventListener("click", clear);
+document.getElementById("home--info-card-drinks-reset").addEventListener("click", clear);
 
-    function clear() {
-        localStorage.clear()
-        location.reload()
-    }
+function clear() {
+    localStorage.clear()
+    location.reload()
+}

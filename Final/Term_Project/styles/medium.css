@@ -9,4 +9,7 @@
     .navigation {
         height: 185px;
     }
+    #weather-icon {
+        width: 55%;
+    }
 }
